@@ -1,0 +1,52 @@
+{"properties": [
+  {
+    "name": "dubbo.protocol.id",
+    "type": "java.lang.String",
+    "description": "A description for 'dubbo.protocol.id'"
+  },
+  {
+    "name": "dubbo.protocol.name",
+    "type": "java.lang.String",
+    "description": "A description for 'dubbo.protocol.name'"
+  },
+  {
+    "name": "dubbo.application.id",
+    "type": "java.lang.String",
+    "description": "A description for 'dubbo.application.id'"
+  },
+  {
+    "name": "dubbo.application.name",
+    "type": "java.lang.String",
+    "description": "A description for 'dubbo.application.name'"
+  },
+  {
+    "name": "dubbo.application.qos.port",
+    "type": "java.lang.String",
+    "description": "A description for 'dubbo.application.qos.port'"
+  },
+  {
+    "name": "dubbo.application.qos.enable",
+    "type": "java.lang.String",
+    "description": "A description for 'dubbo.application.qos.enable'"
+  },
+  {
+    "name": "dubbo.protocol.port",
+    "type": "java.lang.String",
+    "description": "A description for 'dubbo.protocol.port'"
+  },
+  {
+    "name": "dubbo.protocol.status",
+    "type": "java.lang.String",
+    "description": "A description for 'dubbo.protocol.status'"
+  },
+  {
+    "name": "dubbo.registry.id",
+    "type": "java.lang.String",
+    "description": "A description for 'dubbo.registry.id'"
+  },
+  {
+    "name": "dubbo.registry.address",
+    "type": "java.lang.String",
+    "description": "A description for 'dubbo.registry.address'"
+  }
+]}

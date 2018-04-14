@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  
+spring:  
+  application: 
+    name: dubbo-publish
+  dubbo:
+    server: true
+    registry: N/A
+#      protocol: zookeeper
+#      address: zk1.dev.tuboshi.co:2181,zk2.dev.tuboshi.co:2181,zk3.dev.tuboshi.co:2181
+logging:
+  level:
+    ranger.dubbo.zk: debug
