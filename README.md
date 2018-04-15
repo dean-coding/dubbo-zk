@@ -8,7 +8,7 @@
 
 	
 	| 项目                | 应用端口    |   dubbo角色              |  dubbo服务端口  | 描述			|
-	| -------------------| -----------|--------------------------|---------------|----------------|
+	|:-------------------| -----------|--------------------------|---------------|----------------:|
 	|  dubbo-api         | 无         |   send/listen-service   | 无              |定义API  		|
 	|  dubbo-consume1    | 8081       |   @Reference&@Service   | 20883          | 生产服务listenService的v1&消费服务sendService的v1  |
 	|  dubbo-consume2    | 8082       |   @Reference            | 20884          | 消费服务sendService的v2		|
@@ -17,12 +17,16 @@
 
 roundrobin均衡provider:8083&8084
 
-示例:访问 http://localhost:8082/welcome?something=hello
-调用sendService的v2,均衡到8083&8084
-| <img src="./testpics/providers.jpeg" width="640px" height="480"> | 
-| <img src="./testpics/consumes.jpeg" width="640px" height="480"> | 
-| <img src="./testpics/request.jpeg" width="640px" height="480"> | 
-| <img src="./testpics/request-per.jpeg" width="640px" height="480"> | 
+示例:
+
+	访问 http://localhost:8082/welcome?something=hello
+	调用sendService的v2,均衡到8083&8084
+		
+|:---------------------------:|		
+| <img src="./testpics/providers.jpeg" width="660px" height=400px"> | 
+| <img src="./testpics/consumes.jpeg" width="660px" height="400px"> | 
+| <img src="./testpics/request.jpeg" width="660px" height="400px"> | 
+| <img src="./testpics/request-per.jpeg" width="660px" height="400px"> | 
 
 
 ## Zookeeper介绍与安装
@@ -89,10 +93,10 @@ Dubbo提供的注册中心有如下几种类型可供选择：
 
 
 参考:
-https://github.com/apache/incubator-dubbo 
-http://dubbo.apache.org/books/dubbo-user-book/ 开发手册
-http://dubbo.apache.org/books/dubbo-admin-book/ 管理手册
-https://github.com/apache/incubator-dubbo-spring-boot-project dubbo集成springboot
-https://blog.csdn.net/u013851082/article/details/65635742 架构思想借鉴
+### https://github.com/apache/incubator-dubbo 
+### http://dubbo.apache.org/books/dubbo-user-book/ 开发手册
+### http://dubbo.apache.org/books/dubbo-admin-book/ 管理手册
+### https://github.com/apache/incubator-dubbo-spring-boot-project dubbo集成springboot
+### https://blog.csdn.net/u013851082/article/details/65635742 架构思想借鉴
 
 	
