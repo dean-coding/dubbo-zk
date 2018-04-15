@@ -11,7 +11,11 @@ import rangers.dubbo.zk.service.SendService;
 @RestController
 public class HelloCtrl {
 
-	@Reference(version = "1.0.0", application = "${dubbo.application.id}", url = "dubbo://localhost:20881")
+	/**
+	 * <li>如果指定了url,消费者采用默认的dubbo直连,不会注册到注册中心去:url = "dubbo://localhost:20881"</li>
+	 * <li>反之会根据RegistryConfig到配置,订阅注册中心到消息</li>
+	 */
+	@Reference(version = "1.0.0", application = "${dubbo.application.id}")
 	private SendService helloService;
 
 	@GetMapping("/welcome")

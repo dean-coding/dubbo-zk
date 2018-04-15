@@ -1,0 +1,20 @@
+dubbo:
+  application:
+    id: dubbo-provider
+    name: dubbo-provider
+    qos:
+      enable: true
+      port: 22222
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: ${DUBBO_PORT:20881}
+    status: server
+  registry:
+    address: zookeeper://47.98.168.56:2181
+    id: provider-registry
+server:
+  port: 8083
+spring:
+  application:
+    name: dubbo-provider
