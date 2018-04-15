@@ -19,10 +19,10 @@ roundrobin均衡provider:8083&8084
 
 示例:访问 http://localhost:8082/welcome?something=hello
 调用sendService的v2,均衡到8083&8084
-| <img src="./testpics/providers.jpeg" width="640px" height="480"> | 
-| <img src="./testpics/consumes.jpeg" width="640px" height="480"> | 
-| <img src="./testpics/request.jpeg" width="640px" height="480"> | 
-| <img src="./testpics/request-per.jpeg" width="640px" height="480"> | 
+| <img src="./testpics/providers.jpeg" width="660px" height=360px"> | 
+| <img src="./testpics/consumes.jpeg" width="660px" height="360px"> | 
+| <img src="./testpics/request.jpeg" width="660px" height="360px"> | 
+| <img src="./testpics/request-per.jpeg" width="660px" height="360px"> | 
 
 
 ## Zookeeper介绍与安装
