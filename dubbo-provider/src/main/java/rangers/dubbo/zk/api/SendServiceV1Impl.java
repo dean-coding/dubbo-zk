@@ -32,7 +32,14 @@ import rangers.dubbo.zk.service.SendService;
  * @author fuhw/vencano
  * @date 2018-04-15
  */
-@Service(loadbalance = "roundrobin", retries = 2, cluster = "failover", version = "1.0.0", application = "${dubbo.application.id}", protocol = "${dubbo.protocol.id}", registry = "${dubbo.registry.id}")
+@Service(
+		loadbalance = "roundrobin", 
+		retries = 2, 
+		cluster = "failover", 
+		version = "1.0.0", 
+		application = "${dubbo.application.id}", 
+		protocol = "${dubbo.protocol.id}", 
+		registry = "${dubbo.registry.id}")
 @Component
 public class SendServiceV1Impl implements SendService {
 
