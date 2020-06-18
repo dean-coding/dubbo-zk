@@ -24,7 +24,7 @@
 		<dubbo.version>2.6.1</dubbo.version>
 		<zkclient.version>0.10</zkclient.version>
 		<curator-framework.version>4.0.0</curator-framework.version>
-		<zookeeper.version>3.4.11</zookeeper.version>
+		<zookeeper.version>3.4.14</zookeeper.version>
 	</properties>
 	<!-- 使用最新的spring-boot版本 -->
 	<parent>
